@@ -9,7 +9,7 @@ import tempfile
 import StringIO
 import os
 import logging
-from dynamics_sim.parallel import par_for, delayed
+from parallel import par_for, delayed
 import multiprocessing
 
 UNCLASSIFIED_EQUILIBRIUM = 'Unclassified'  #: the string used to identify an equilibrium that did not match any of the classification rules
