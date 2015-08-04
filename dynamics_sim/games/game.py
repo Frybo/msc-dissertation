@@ -1,7 +1,7 @@
 __author__ = 'elubin'
 
-from dynamics_sim.payoff_matrix import PayoffMatrix
-from dynamics_sim.util import Obj
+from payoff_matrix import PayoffMatrix
+from util import Obj
 import numpy
 import itertools
 import time
